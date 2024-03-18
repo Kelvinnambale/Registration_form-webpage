@@ -12,16 +12,19 @@
         <!--Heading-->
     <div class="class">
         <h2>Nextgen Registration Form</h2>
-        <p>Complete the fields below...All marked fields with * must be completed.</p>
+        <p>Complete the fields below...All fields with * must be completed.</p>
         <div class="formcontrol">
             <fieldset>
                 <legend>Student Information</legend>
-                <label for="fname">Student Name*: </label>
-                    <input type="text" id="stdname" name="stdname" required placeholder="Kelvin Nambale"><br>
-                <label for="lname">Registration Number*: </label>
-                    <input type="text" name="RegNo" id="RegNo" required><br>
-                <label for="Email"></label>
-                    <input type="email" name="email" id="email" required placeholder="nams123@gmail.com">
+                <label for="fname">Student Name: </label>
+                    <input type="text" id="stdname" name="stdname" required placeholder="Kelvin Nambale"><span>*</span><br> <br>
+                <label for="RegNo">Registration Number: </label>
+                    <input type="text" name="RegNo" id="RegNo" required><span>*</span><br> <br>
+                <label for="Email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="nams123@gmail.com"><span>*</span><br> <br>
+                <label for="gender">Gender</label> <br>
+                    <input type="radio" name="Gender" id="" value="Male">Male <br>
+                    <input type="radio" name="Gender" id=""value="Female"> Female <br> <br>
             </fieldset>
         </div>
     </div>
