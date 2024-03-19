@@ -11,3 +11,7 @@
 form{
     width: 50%;
 }
+span{
+  color: red;
+  font-size: 15px;
+}
